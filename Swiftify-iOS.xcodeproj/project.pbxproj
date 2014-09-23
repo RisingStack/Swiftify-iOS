@@ -13,6 +13,9 @@
 		680BDAB619CC4CBD00BDCC8D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 680BDAB519CC4CBD00BDCC8D /* Images.xcassets */; };
 		680BDAB919CC4CBD00BDCC8D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 680BDAB719CC4CBD00BDCC8D /* LaunchScreen.xib */; };
 		680BDAC519CC4CBD00BDCC8D /* Swiftify_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 680BDAC419CC4CBD00BDCC8D /* Swiftify_iOSTests.swift */; };
+		680BDAD519CC625800BDCC8D /* LineChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 680BDAD419CC625800BDCC8D /* LineChart.swift */; };
+		680BDAD919CC63CC00BDCC8D /* DotCALayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 680BDAD819CC63CC00BDCC8D /* DotCALayer.swift */; };
+		680BDADE19CC6E5100BDCC8D /* bundle.js in Resources */ = {isa = PBXBuildFile; fileRef = 680BDADD19CC6E5100BDCC8D /* bundle.js */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,9 @@
 		680BDABE19CC4CBD00BDCC8D /* Swiftify-iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Swiftify-iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		680BDAC319CC4CBD00BDCC8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		680BDAC419CC4CBD00BDCC8D /* Swiftify_iOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swiftify_iOSTests.swift; sourceTree = "<group>"; };
+		680BDAD419CC625800BDCC8D /* LineChart.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LineChart.swift; sourceTree = "<group>"; };
+		680BDAD819CC63CC00BDCC8D /* DotCALayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DotCALayer.swift; path = "../../swift-linechart/linechart/linechart/DotCALayer.swift"; sourceTree = "<group>"; };
+		680BDADD19CC6E5100BDCC8D /* bundle.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = bundle.js; path = js/dist/bundle.js; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +86,8 @@
 				680BDAAE19CC4CBD00BDCC8D /* AppDelegate.swift */,
 				680BDAB019CC4CBD00BDCC8D /* ViewController.swift */,
 				680BDAB219CC4CBD00BDCC8D /* Main.storyboard */,
+				680BDADC19CC6E1100BDCC8D /* JS */,
+				680BDADB19CC6DE900BDCC8D /* Line Chart */,
 				680BDAB519CC4CBD00BDCC8D /* Images.xcassets */,
 				680BDAB719CC4CBD00BDCC8D /* LaunchScreen.xib */,
 				680BDAAC19CC4CBD00BDCC8D /* Supporting Files */,
@@ -110,6 +118,23 @@
 				680BDAC319CC4CBD00BDCC8D /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		680BDADB19CC6DE900BDCC8D /* Line Chart */ = {
+			isa = PBXGroup;
+			children = (
+				680BDAD819CC63CC00BDCC8D /* DotCALayer.swift */,
+				680BDAD419CC625800BDCC8D /* LineChart.swift */,
+			);
+			name = "Line Chart";
+			sourceTree = "<group>";
+		};
+		680BDADC19CC6E1100BDCC8D /* JS */ = {
+			isa = PBXGroup;
+			children = (
+				680BDADD19CC6E5100BDCC8D /* bundle.js */,
+			);
+			name = JS;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -194,6 +219,7 @@
 			files = (
 				680BDAB419CC4CBD00BDCC8D /* Main.storyboard in Resources */,
 				680BDAB919CC4CBD00BDCC8D /* LaunchScreen.xib in Resources */,
+				680BDADE19CC6E5100BDCC8D /* bundle.js in Resources */,
 				680BDAB619CC4CBD00BDCC8D /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -214,6 +240,8 @@
 			files = (
 				680BDAB119CC4CBD00BDCC8D /* ViewController.swift in Sources */,
 				680BDAAF19CC4CBD00BDCC8D /* AppDelegate.swift in Sources */,
+				680BDAD519CC625800BDCC8D /* LineChart.swift in Sources */,
+				680BDAD919CC63CC00BDCC8D /* DotCALayer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -405,6 +433,7 @@
 				680BDACA19CC4CBD00BDCC8D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		680BDACB19CC4CBD00BDCC8D /* Build configuration list for PBXNativeTarget "Swiftify-iOSTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +442,7 @@
 				680BDACD19CC4CBD00BDCC8D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
