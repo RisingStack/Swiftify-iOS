@@ -46,8 +46,9 @@ class ViewController: UIViewController {
         let calculate = context.objectForKeyedSubscript("calculate")
         let JSON = context.objectForKeyedSubscript("JSON")
         let JSONparse = JSON.objectForKeyedSubscript("parse")
+        let JSONString = "{\"foo\":\"bar\",\"bar\":[1,2],\"world\":{\"hello\":4,\"foo\":\"bar\"}}"
         
-        let parsed = JSONparse.callWithArguments(["{\"foo\":\"bar\",\"bar\":[1,2],\"world\":{\"hello\":4,\"foo\":\"bar\"}}"])
+        let parsed = JSONparse.callWithArguments([JSONString])
         let parsedDic = parsed.toDictionary()
         
         // Simulate temp
