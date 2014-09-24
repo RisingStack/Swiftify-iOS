@@ -1,0 +1,13 @@
+{
+  "name": "Swiftify",
+  "version": "0.0.0",
+  "description": "",
+  "main": "lib.js",
+  "dependencies": {
+    "liquid-pid": "0.0.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
