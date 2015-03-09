@@ -14,8 +14,8 @@
 		680BDAB919CC4CBD00BDCC8D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 680BDAB719CC4CBD00BDCC8D /* LaunchScreen.xib */; };
 		680BDAC519CC4CBD00BDCC8D /* Swiftify_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 680BDAC419CC4CBD00BDCC8D /* Swiftify_iOSTests.swift */; };
 		680BDAD519CC625800BDCC8D /* LineChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 680BDAD419CC625800BDCC8D /* LineChart.swift */; };
-		680BDAD919CC63CC00BDCC8D /* DotCALayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 680BDAD819CC63CC00BDCC8D /* DotCALayer.swift */; };
 		680BDADE19CC6E5100BDCC8D /* bundle.js in Resources */ = {isa = PBXBuildFile; fileRef = 680BDADD19CC6E5100BDCC8D /* bundle.js */; };
+		6CEE4DE91AADA46200C77E87 /* DotLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CEE4DE81AADA46200C77E87 /* DotLayer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,8 +40,8 @@
 		680BDAC319CC4CBD00BDCC8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		680BDAC419CC4CBD00BDCC8D /* Swiftify_iOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swiftify_iOSTests.swift; sourceTree = "<group>"; };
 		680BDAD419CC625800BDCC8D /* LineChart.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LineChart.swift; sourceTree = "<group>"; };
-		680BDAD819CC63CC00BDCC8D /* DotCALayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DotCALayer.swift; path = "../../swift-linechart/linechart/linechart/DotCALayer.swift"; sourceTree = "<group>"; };
 		680BDADD19CC6E5100BDCC8D /* bundle.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = bundle.js; path = js/dist/bundle.js; sourceTree = "<group>"; };
+		6CEE4DE81AADA46200C77E87 /* DotLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DotLayer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,8 +123,8 @@
 		680BDADB19CC6DE900BDCC8D /* Line Chart */ = {
 			isa = PBXGroup;
 			children = (
-				680BDAD819CC63CC00BDCC8D /* DotCALayer.swift */,
 				680BDAD419CC625800BDCC8D /* LineChart.swift */,
+				6CEE4DE81AADA46200C77E87 /* DotLayer.swift */,
 			);
 			name = "Line Chart";
 			sourceTree = "<group>";
@@ -239,9 +239,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				680BDAB119CC4CBD00BDCC8D /* ViewController.swift in Sources */,
+				6CEE4DE91AADA46200C77E87 /* DotLayer.swift in Sources */,
 				680BDAAF19CC4CBD00BDCC8D /* AppDelegate.swift in Sources */,
 				680BDAD519CC625800BDCC8D /* LineChart.swift in Sources */,
-				680BDAD919CC63CC00BDCC8D /* DotCALayer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
